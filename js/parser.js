@@ -219,6 +219,9 @@ $(function(){
       var issue_labels = issues[i].labels
       for (var j = 0; j < issue_labels.length; j++) {
         if (!inArrayByName(labels, issue_labels[j].name)) {
+          if(issue_labels[j].name.includes("lang")){
+           issue_labels[j].name = "lang"
+          }
           labels.push(issue_labels[j])
         }
       }
