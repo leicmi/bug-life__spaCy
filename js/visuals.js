@@ -206,6 +206,7 @@ $(function(){
         // .showYAxis(false)
         .showLegend(false)                // Hide legend
         .transitionDuration(0)
+        .height(380);
 
       //Format x-axis labels with custom function.
       chart.xAxis.tickFormat(function(d) {
