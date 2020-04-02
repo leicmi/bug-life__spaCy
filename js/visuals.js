@@ -202,7 +202,7 @@ $(function(){
         .showControls(false)              // Allow user to choose 'Stacked', 'Stream', 'Expanded' mode.
         .clipEdge(true)
         // .showLegend(false)
-        .showXAxis(false)                 // Hide X Axis (dates)
+        .showXAxis(true)                 // Hide X Axis (dates)
         // .showYAxis(false)
         .showLegend(false)                // Hide legend
         .transitionDuration(0)
